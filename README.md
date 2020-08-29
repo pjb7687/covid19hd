@@ -1,5 +1,9 @@
-#COVID-19 stats Heidelberg and Rhein-Neckar-Kreis
+# COVID-19 stats Heidelberg and Rhein-Neckar-Kreis
+
+Source: https://www.rhein-neckar-kreis.de/start/landratsamt/coronavirus+fallzahlen.html
 
 Please refer to the `CoronaStats.ipynb`.
 
-Source: https://www.rhein-neckar-kreis.de/start/landratsamt/coronavirus+fallzahlen.html
+![GitHub Logo](covid19hd.png)
+![GitHub Logo](covid19rnk.png)
+
