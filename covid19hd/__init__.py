@@ -129,4 +129,5 @@ def fetch_stats(out_dir, pdf_dir="", verbose=True):
         print("Done!")
 
 if __name__ == "__main__":
-    fetch_stats("source/_static/")
+    import sys
+    fetch_stats(*sys.argv)
