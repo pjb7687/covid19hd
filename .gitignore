@@ -1,0 +1,4 @@
+pdfs
+.ipynb_checkpoints
+.vscode
+**/*.pyc
