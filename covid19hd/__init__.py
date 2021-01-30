@@ -68,7 +68,7 @@ def fetch_stats(out_dir, pdf_dir="", verbose=True):
         date = pd.Timestamp("20%s-%s-%s"%(pdf_fn[:2], pdf_fn[2:4], pdf_fn[4:6]))
         if date in rnk_stats.index:
             if verbose:
-                print(f"Found data on {date}, skipping...")
+                print(f"Found data on {date.strftime("%Y-%m-%d")}, skipping...")
             continue
         
         if not os.path.exists(os.path.join(pdf_dir, pdf_fn)):
