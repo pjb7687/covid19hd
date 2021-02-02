@@ -1,6 +1,6 @@
 # COVID-19 plots Heidelberg and Rhein-Neckar-Kreis
 
-**As of Feb. 2021, RNK website does not provide PDF summary of the stats anymore, but via an Arcgis-based interactive map.
+**As of Feb. 2021, RNK website does not provide PDF summary of the stats anymore, but via an Arcgis-based interactive map `Corona Dashboard`.
 Although it is very nice that they now provide interactive plots, but it is a pity that they chose Arcgis, it is super slow and not mobile-ready.
 Anyway, I will update this module to use their Arcgis data soon.**
 
