@@ -1,8 +1,15 @@
-# COVID-19 plots Heidelberg and Rhein-Neckar-Kreis
+# DEPRECATED
 
-**As of Feb. 2021, RNK website does not provide PDF summary of the stats anymore, but via an Arcgis-based interactive map `Corona Dashboard`.
+**This module is deprecated.** As of Feb. 2021, RNK website does not provide PDF summary of the stats anymore, but via an Arcgis-based interactive map `Corona Dashboard`.
 Although it is very nice that they now provide interactive plots, but it is a pity that they chose Arcgis, it is super slow and not mobile-ready.
-Anyway, I will update this module to use their Arcgis data soon.**
+
+However, one good thing is that it provides a JSON api, you can use the form below to query data from the database:
+
+https://services7.arcgis.com/0Uc5jDlEgdLosloE/arcgis/rest/services/dbdata_hd_rnk03/FeatureServer/0
+
+Since it is possible to obtain data from the official database, it seems that this module is no longer useful - therefore it is deprecated.
+
+# COVID-19 statistics of Heidelberg and Rhein-Neckar-Kreis
 
 Data source: https://www.rhein-neckar-kreis.de/start/landratsamt/coronavirus+fallzahlen.html
 
